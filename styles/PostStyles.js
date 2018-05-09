@@ -26,11 +26,6 @@ export default StyleSheet.create({
     },
     content: {
       marginLeft: 15,
-      marginRight: 15,
-    },
-    contentMwartba: {
-      marginTop: -30,
-      marginLeft: 15,
       marginRight: 15
     },
     image: {

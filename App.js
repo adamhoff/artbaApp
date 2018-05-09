@@ -3,12 +3,7 @@ import { FlatList, Dimensions, ScrollView, StyleSheet, Text, View, Image, Toucha
 import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation';
 import FastImage from 'react-native-fast-image';
 
-import Newsline from './newsline/Newsline';
-import MwartbaDetails from './mwartba/MwartbaDetails';
-import NewslineDetails from './newsline/NewslineDetails';
-import TranspoAdvocate from './transpo_advocate/TranspoAdvocate';
-import TranspoAdvocateDetails from './transpo_advocate/TranspoAdvocateDetails';
-
+import Details from './details/Details';
 import styles from './styles/PostStyles';
 
 class App extends React.Component {
@@ -38,7 +33,6 @@ class App extends React.Component {
         return responseJson.items
       })
 
-
     Promise.all([url1, url2, url3])
     .then((responseJson) => {
       let responseConcat = responseJson[0].concat(responseJson[1], responseJson[2])
@@ -57,24 +51,27 @@ class App extends React.Component {
     })
   }
 
-
-
   renderItem = ({ item }) => {
-      return(
-        <View style={styles.container} key={item.title}>
+    const Entities = require('html-entities').AllHtmlEntities;
+    const entities = new Entities();
+    return(
+      <View style={styles.container} key={item.title}>
+        <TouchableHighlight onPress={() => this.props.navigation.navigate("Details", item: item)}
+          activeOpacity={1}
+          underlayColor={'#eeeeee'}>
           <View style={{paddingTop: 5, flex: 1}}>
             <FastImage source={{uri: item.image, priority: FastImage.priority.high}} style={styles.image}/>
-            <Text style={styles.title}>{item.title}</Text>
-            <Text style={styles.category}>{}</Text>
+            <Text style={styles.title}>{entities.decode(item.title)}</Text>
             <Text style={styles.date}>
               {new Date(item.date_published).toLocaleString([], {year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'})}
             </Text>
           </View>
-          <View
-            style={{ height: 1, width: Dimensions.get('window').width-30, backgroundColor: '#c12222', marginLeft: 15, marginTop: 10, marginBottom: 10}}>
-          </View>
+        </TouchableHighlight>
+        <View
+          style={{ height: 1, width: Dimensions.get('window').width-30, backgroundColor: '#c12222', marginLeft: 15, marginTop: 10, marginBottom: 10}}>
         </View>
-      )
+      </View>
+    )
   }
 
   render(){
@@ -99,9 +96,7 @@ class App extends React.Component {
 
 const HomeStack = StackNavigator({
   Home: { screen: App },
-  MwartbaDetails: {screen: MwartbaDetails },
-  NewslineDetails: { screen: NewslineDetails },
-  TranspoAdvocateDetails: { screen: TranspoAdvocateDetails }
+  Details: {screen: Details },
 });
 
 export default TabNavigator({
