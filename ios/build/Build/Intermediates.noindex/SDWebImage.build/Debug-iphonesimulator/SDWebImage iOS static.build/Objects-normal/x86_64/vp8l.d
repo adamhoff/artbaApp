@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/vp8l.c \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/./alphai.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/./webpi.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/rescaler.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/../webp/types.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/./decode_vp8.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../webp/decode.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/filters.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/../dsp/dsp.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/./vp8li.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/bit_reader.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/color_cache.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/huffman.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/../webp/format_constants.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../dsp/lossless.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/../dsp/../enc/histogram.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/../dsp/../enc/./backward_references.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/../dsp/../utils/utils.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../dsp/yuv.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native-fast-image/ios/Vendor/SDWebImage/Vendors/libwebp/src/dec/../utils/endian_inl.h
