@@ -55,16 +55,16 @@ class App extends React.Component {
     const Entities = require('html-entities').AllHtmlEntities;
     const entities = new Entities();
     return(
-      <View style={styles.container} key={item.title}>
+      <View style={styles.container, styles.background} key={item.title}>
         <TouchableHighlight onPress={() => this.props.navigation.navigate("Details", item: item)}
           activeOpacity={1}
           underlayColor={'#eeeeee'}>
           <View style={{paddingTop: 5, flex: 1}}>
             <FastImage source={{uri: item.image, priority: FastImage.priority.high}} style={styles.image}/>
-            <Text style={styles.title}>{entities.decode(item.title)}</Text>
-            <Text style={styles.date}>
-              {new Date(item.date_published).toLocaleString([], {year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'})}
-            </Text>
+              <Text style={styles.title}>{entities.decode(item.title)}</Text>
+              <Text style={styles.date}>
+                {new Date(item.date_published).toLocaleString([], {year: 'numeric', month: 'short', day: '2-digit', hour: '2-digit', minute: '2-digit'})}
+              </Text>
           </View>
         </TouchableHighlight>
         <View
@@ -82,7 +82,7 @@ class App extends React.Component {
         <ActivityIndicator size="large" color="#c12222"/>
       </View>
       :
-      <View style={{flex: 1, height: '100%'}}>
+      <View style={{flex: 1, height: '100%', backgroundColor: 'white'}}>
         <Image source={require('./assets/ARTBA-Logo-2016.png')}/>
         <FlatList
           data={this.state.dataSource}

@@ -7,9 +7,6 @@ export default StyleSheet.create({
     background: {
       backgroundColor: 'white'
     },
-    favicon: {
-
-    },
     title: {
       marginTop: 5,
       marginLeft: 15,
@@ -32,7 +29,7 @@ export default StyleSheet.create({
       width: Dimensions.get('window').width-30,
       height: 180,
       marginLeft: 15,
-      borderRadius: 4
+      borderRadius: 6
     },
     date: {
       marginTop: 5,
@@ -41,18 +38,26 @@ export default StyleSheet.create({
       textAlign: 'right',
       color: '#555555',
     },
-    category: {
+    author: {
       marginTop: 5,
       fontSize: 12,
       marginLeft: 15,
       textAlign: 'left',
       color: '#555555'
     },
-    hr: {
-      borderBottomColor: '#c12222',
-      borderBottomWidth: 1,
-      paddingTop: 15,
+    dateDetail: {
+      marginTop: 10,
+      fontSize: 12,
       marginLeft: 15,
-      marginRight: 15
+      textAlign: 'left',
+      color: '#555555',
+    },
+    authorDetail: {
+      fontStyle: 'italic',
+      marginBottom: 10,
+      fontSize: 12,
+      marginLeft: 15,
+      textAlign: 'left',
+      color: '#555555'
     }
   });
