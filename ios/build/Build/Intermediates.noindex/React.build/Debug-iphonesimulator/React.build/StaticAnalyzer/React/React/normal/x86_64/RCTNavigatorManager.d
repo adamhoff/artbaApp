@@ -25,4 +25,5 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTComponent.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTNavigator.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Modules/RCTUIManager.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTRootView.h
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.h

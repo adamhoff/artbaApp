@@ -21,4 +21,6 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTErrorInfo.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTJSStackFrame.h
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTJSStackFrame.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Modules/RCTRedBoxExtraDataViewController.h

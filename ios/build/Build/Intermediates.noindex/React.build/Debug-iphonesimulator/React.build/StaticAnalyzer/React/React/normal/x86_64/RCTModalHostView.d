@@ -28,5 +28,4 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTModalHostViewController.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTTouchHandler.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Modules/RCTUIManager.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTRootView.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTTVRemoteHandler.h
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTRootView.h

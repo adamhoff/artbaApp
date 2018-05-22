@@ -25,4 +25,5 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/UIView+React.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTParserUtils.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTShadowView.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTLayout.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTRootView.h

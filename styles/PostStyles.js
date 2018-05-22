@@ -12,14 +12,14 @@ export default StyleSheet.create({
       marginLeft: 15,
       marginRight: 15,
       fontSize: 16,
-      fontWeight: 'bold'
+      fontWeight: 'bold',
     },
     titleDetail: {
       marginTop: 5,
       marginLeft: 15,
       marginRight: 15,
       fontSize: 18,
-      fontWeight: 'bold'
+      fontWeight: 'bold',
     },
     content: {
       marginLeft: 15,
@@ -38,16 +38,9 @@ export default StyleSheet.create({
       textAlign: 'right',
       color: '#555555',
     },
-    author: {
-      marginTop: 5,
-      fontSize: 12,
-      marginLeft: 15,
-      textAlign: 'left',
-      color: '#555555'
-    },
     dateDetail: {
       marginTop: 10,
-      fontSize: 12,
+      fontSize: 13,
       marginLeft: 15,
       textAlign: 'left',
       color: '#555555',
@@ -55,7 +48,7 @@ export default StyleSheet.create({
     authorDetail: {
       fontStyle: 'italic',
       marginBottom: 10,
-      fontSize: 12,
+      fontSize: 13,
       marginLeft: 15,
       textAlign: 'left',
       color: '#555555'

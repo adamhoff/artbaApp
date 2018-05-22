@@ -19,4 +19,5 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Profiler/RCTProfile.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

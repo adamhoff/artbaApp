@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTTextViewManager.m \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTTextViewManager.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/Text/RCTTextViewManager.m \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/Text/RCTTextViewManager.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
@@ -23,15 +23,16 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
-  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFont.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextViewManager.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAccessibilityManager.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTConvert+Text.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTShadowTextView.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTTextView.h \
-  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTTextInput.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTBackedTextInputViewProtocol.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTFontAttributes.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTFontAttributesDelegate.h
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManagerUtils.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManagerObserverCoordinator.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/Text/RCTTextShadowView.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/Text/RCTTextView.h

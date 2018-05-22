@@ -396,4 +396,6 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Profiler/RCTProfile.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBigString.h \
-  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/MessageQueueThread.h
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/MessageQueueThread.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/RAMBundleRegistry.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSModulesUnbundle.h

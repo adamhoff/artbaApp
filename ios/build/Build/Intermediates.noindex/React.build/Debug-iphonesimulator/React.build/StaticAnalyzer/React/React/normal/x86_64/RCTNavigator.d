@@ -27,5 +27,4 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/ScrollView/RCTScrollableProtocol.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTView.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTWrapperViewController.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/UIView+React.h

@@ -29,4 +29,5 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTModalManager.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Modules/RCTEventEmitter.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTShadowView.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTLayout.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTRootView.h

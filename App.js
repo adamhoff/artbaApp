@@ -2,12 +2,19 @@ import React from 'react';
 import { FlatList, Dimensions, ScrollView, StyleSheet, Text, View, Image, TouchableHighlight, ActivityIndicator } from 'react-native';
 import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation';
 import FastImage from 'react-native-fast-image';
-
+import { YellowBox } from 'react-native';
 import Details from './details/Details';
+import Events from './events/Events';
 import styles from './styles/PostStyles';
+
+YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTImageLoader']);
+
 
 class App extends React.Component {
 
+static navigationOptions = {
+  header: null
+};
   constructor(){
     super();
     this.state = {
@@ -34,18 +41,18 @@ class App extends React.Component {
       })
 
     Promise.all([url1, url2, url3])
-    .then((responseJson) => {
-      let responseConcat = responseJson[0].concat(responseJson[1], responseJson[2])
-      responseConcat = responseConcat.sort((a, b) => {
-        return new Date(b.date_published) - new Date(a.date_published)
+      .then((responseJson) => {
+        let responseConcat = responseJson[0].concat(responseJson[1], responseJson[2])
+        responseConcat = responseConcat.sort((a, b) => {
+          return new Date(b.date_published) - new Date(a.date_published)
+        })
+        this.setState({
+          dataSource: responseConcat,
+          isLoading: false,
+        }, function(){
+          console.log(this.state.dataSource)
+        });
       })
-      this.setState({
-        dataSource: responseConcat,
-        isLoading: false,
-      }, function(){
-        console.log(responseConcat)
-      });
-    })
     .catch((error) => {
       console.log(error)
     })
@@ -82,12 +89,12 @@ class App extends React.Component {
         <ActivityIndicator size="large" color="#c12222"/>
       </View>
       :
-      <View style={{flex: 1, height: '100%', backgroundColor: 'white'}}>
+      <View style={{flex: 1, height: '100%', backgroundColor: 'white', paddingTop: 22}}>
         <Image source={require('./assets/ARTBA-Logo-2016.png')}/>
         <FlatList
           data={this.state.dataSource}
           renderItem={this.renderItem}
-          keyExtractor={(item, index) => index}
+          keyExtractor={(item, index) => index.toString()}
         />
       </View>
     );
@@ -100,7 +107,8 @@ const HomeStack = StackNavigator({
 });
 
 export default TabNavigator({
-  Home: { screen: HomeStack }
+  Home: { screen: HomeStack },
+  Events: { screen: Events}
 },
 {
   tabBarOptions: {

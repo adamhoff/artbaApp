@@ -11,4 +11,5 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Modules/RCTAccessibilityManager.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTAssert.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/UIUtils/RCTUIUtils.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTUtils.h

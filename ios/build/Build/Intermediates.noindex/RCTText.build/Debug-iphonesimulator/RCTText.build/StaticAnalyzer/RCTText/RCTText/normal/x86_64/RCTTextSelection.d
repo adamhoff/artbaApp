@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTTextSelection.m \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.m \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \

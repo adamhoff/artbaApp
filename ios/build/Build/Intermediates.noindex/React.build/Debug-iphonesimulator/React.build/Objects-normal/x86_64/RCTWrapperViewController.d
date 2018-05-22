@@ -1,7 +1,6 @@
 dependencies: \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTWrapperViewController.m \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTWrapperViewController.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTEventDispatcher.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTBridge.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTBridgeDelegate.h \

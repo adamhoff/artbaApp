@@ -23,4 +23,7 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTInvalidating.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/UIView+React.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTTabBar.h
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Views/RCTTabBar.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Modules/RCTUIManager.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.h

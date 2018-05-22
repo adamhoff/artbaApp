@@ -29,5 +29,6 @@ dependencies: \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Image/RCTImageShadowView.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
   /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Image/RCTImageView.h

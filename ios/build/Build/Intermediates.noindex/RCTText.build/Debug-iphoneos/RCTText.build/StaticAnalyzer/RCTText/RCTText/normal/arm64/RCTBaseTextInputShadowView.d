@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/TextInput/RCTBaseTextInputShadowView.m \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/TextInput/RCTBaseTextInputShadowView.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTShadowView.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTComponent.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTLayout.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTDefines.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/yoga/Yoga.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/yoga/YGEnums.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/yoga/YGMacros.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTRootView.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTBridge.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTBridgeDelegate.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTJavaScriptLoader.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTBridgeModule.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTFrameUpdate.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTInvalidating.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTTextDecorationLineType.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTShadowView+Layout.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTUIManager.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTViewManager.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTConvert.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTAnimationType.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTBorderStyle.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTLog.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTAssert.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTUtils.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTPointerEvents.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTEventDispatcher.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/UIView+React.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/TextInput/RCTBaseTextInputView.h \
+  /Users/adamh/ARTBA/artbaApp/ios/build/Build/Products/Debug-iphoneos/include/React/RCTView.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h \
+  /Users/adamh/ARTBA/artbaApp/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h
